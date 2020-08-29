@@ -42,7 +42,7 @@ while (my $q = CGI::Fast->new) {
         } 
         next if $bad_param;
 
-  my $user = $q->param('user') || 'ciderpunx';
+  my $user = $q->param('user') || 'RogerConsortium';
 
   $user = lc $user;
   if($user =~ '^#') {
